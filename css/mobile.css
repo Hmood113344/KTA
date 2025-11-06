@@ -1,0 +1,28 @@
+/* تصميم الموبايل */
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .saudi-logo {
+        top: 10px;
+        left: 10px;
+        font-size: 24px;
+    }
+
+    .join-btn {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    .sections-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sections-nav a {
+        margin: 5px 0;
+    }
+}
