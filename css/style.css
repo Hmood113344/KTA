@@ -1,0 +1,90 @@
+/* الألوان الرئيسية */
+:root {
+    --orange: #FFA500;
+    --gold: #FFD700;
+    --dark-bg: #1a1a1a;
+}
+
+/* التصميم العام */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--dark-bg);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* الهيدر السعودي */
+header {
+    position: relative;
+    padding: 20px;
+    border-bottom: 2px solid var(--gold);
+    background: linear-gradient(to right, #000, #245C36);
+}
+
+.saudi-logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 30px;
+}
+
+/* زر الإنضمام */
+.join-btn {
+    background: var(--orange);
+    color: var(--gold);
+    padding: 15px 40px;
+    border: 3px solid var(--gold);
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+    transition: all 0.3s;
+}
+
+.join-btn:hover {
+    transform: scale(1.05);
+}
+
+/* روابط الأقسام */
+.sections-nav {
+    margin: 30px 0;
+}
+
+.sections-nav a {
+    color: var(--gold);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* أضف هذا للجزء السفلي من الملف */
+.back-btn {
+    display: inline-block;
+    margin: 20px;
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.event {
+    background: rgba(255, 165, 0, 0.2);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* تنسيقات بطاقات الأعضاء */
+.member {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-right: 5px solid #FFA500;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 0 8px 8px 0;
+}
+
+.rank {
+    color: #245C36;
+    font-weight: bold;
+    font-size: 14px;
+}
